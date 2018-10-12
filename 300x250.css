@@ -1,0 +1,63 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.container{
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 250px;
+    visibility: visible;
+    -webkit-animation: fadeIn 0.75s linear 0s forwards;
+    -moz-animation: fadeIn 0.75s linear 0s forwards;
+    animation: fadeIn 0.75s linear 0s forwards;
+}
+.container .bg-1{
+    visibility: hidden;
+    width: 100%;
+    height: 113px;
+    bottom: 40px;
+    position: absolute;
+    background: url(images/bg-1-300x250.png) no-repeat center center;
+    -webkit-animation: fadeIn .5s linear .3s forwards;
+    -moz-animation: fadeIn .5s linear .3s forwards;
+    animation: fadeIn .5s linear .3s forwards;
+}
+.container .bg-2{
+    visibility: hidden;
+    width: 100%;
+    height: 97px;
+    position: absolute;
+    top: 0;
+    background: url(images/bg-2-300x250.png) no-repeat center center;
+    -webkit-animation: fadeIn .5s linear .6s forwards;
+    -moz-animation: fadeIn .5s linear .6s forwards;
+    animation: fadeIn .5s linear .6s forwards;
+}
+.container .bottom{
+    visibility: hidden;
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+    background: url(images/bottom-300x250.png) no-repeat center center;
+    -webkit-animation: fadeIn .5s linear .3s forwards;
+    -moz-animation: fadeIn .5s linear .3s forwards;
+    animation: fadeIn .5s linear .3s forwards;
+}
+.container .text{
+    visibility: hidden;
+    width: 176px;
+    height: 50px;
+    position: absolute;
+    top: 109px;
+    left: 10px;
+    background: url(images/text-300x250.png) no-repeat center center;
+    -webkit-animation: fadeInDown .55s linear .6s forwards;
+    -moz-animation: fadeInDown .55s linear .6s forwards;
+    animation: fadeInDown .55s linear .6s forwards;
+}
